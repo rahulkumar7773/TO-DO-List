@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 50px;
+  }
+  .todo-container {
+    width: 350px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h2 {
+    text-align: center;
+  }
+  input[type="text"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 10px;
+    width: 20%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    background: #eee;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+  }
+  .action-btn {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+  }
+  .action-btn span {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .edit {
+    color: #007bff;
+  }
+  .delete {
+    color: red;
+  }
